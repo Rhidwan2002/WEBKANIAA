@@ -13,12 +13,11 @@
   max-width: 50px;
 }
 .main-gray {
-  background-color: #feffff;
+  background-color: #ffffff;
 }
-.main-atas-judul {
-  color: #999;
-  font-size: 22px;
-  font-weight: 600;
+.main-gray h2 span,
+.main-green h2 span {
+  color: #ffc300;
 }
 /* global css */
 .main-biru {
@@ -140,4 +139,8 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+}
+/* footer */
+footer {
+  background-color: #0077b6;
 }
