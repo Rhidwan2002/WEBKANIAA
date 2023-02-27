@@ -144,3 +144,31 @@
 footer {
   background-color: #0077b6;
 }
+/* portofolio */
+.portofolio .container {
+  padding-bottom: 40px;
+}
+.portofolio .portofolio-heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+.portofolio .portofolio-heading h2 {
+  color: #0077b6;
+  font-weight: 500;
+  text-align: center;
+}
+.portofolio .portofolio-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+.portofolio .portofolio-item-inner {
+  border: 6px solid #0077b6;
+  border-radius: 10px;
+  overflow: 10px;
+  cursor: pointer;
+}
+.portofolio .portofolio-item-inner .portofolio-img img {
+  width: 100%;
+}
